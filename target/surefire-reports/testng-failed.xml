@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [HRM]">
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Run on FIREFOX(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="data.hrm.employee.Level_19_Fake_Data">
+        <methods>
+          <include name="Employee_02_Upload_Avatar"/>
+          <include name="Employee_03_Personal_Details"/>
+          <include name="Employee_04_Contact_Details"/>
+          <include name="deleteAllFilesInReportNGScreenshot"/>
+          <include name="Employee_01_Add_New_Employee"/>
+          <include name="beforClass"/>
+          <include name="cleanBrowser"/>
+        </methods>
+      </class> <!-- data.hrm.employee.Level_19_Fake_Data -->
+    </classes>
+  </test> <!-- Run on FIREFOX(failed) -->
+</suite> <!-- Failed suite [HRM] -->

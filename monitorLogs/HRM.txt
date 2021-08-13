@@ -1,0 +1,9 @@
+[INFO ] [2021-08-13 15:39:59,508] ---------- START delete file in folder ----------
+[INFO ] [2021-08-13 15:39:59,511] ---------- END delete file in folder ----------
+[INFO ] [2021-08-13 15:39:59,531] Pre-Condition - Step 01: Open Browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-08-13 15:40:09,676] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-08-13 15:40:10,425] Add_New_01 - Step 01: Open Employee List page
+[INFO ] [2021-08-13 15:40:51,045] Upload_Avatar_02 - Step 01: Login with Employee Role
+[INFO ] [2021-08-13 15:40:51,050] Personal_Details_03 - Step 01: Open Personal Detail Page
+[INFO ] [2021-08-13 15:40:51,053] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
+[INFO ] [2021-08-13 15:40:51,079] Post-Condition: Close browser

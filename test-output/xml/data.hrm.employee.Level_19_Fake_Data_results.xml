@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on FIREFOX"
+           tests="12"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="27.176">
+  <properties />
+  
+  
+            <testcase name="Employee_09_View_Tax" time="0.002" classname="data.hrm.employee.Level_19_Fake_Data" />
+                <testcase name="Employee_11_Search_Employees" time="0.001" classname="data.hrm.employee.Level_19_Fake_Data" />
+                <testcase name="Employee_05_Emergency_Contact" time="0.001" classname="data.hrm.employee.Level_19_Fake_Data" />
+                <testcase name="Employee_08_View_Salary" time="0.002" classname="data.hrm.employee.Level_19_Fake_Data" />
+                <testcase name="Employee_09_Assigned_Dependents" time="0.001" classname="data.hrm.employee.Level_19_Fake_Data" />
+                <testcase name="Employee_10_Qualifications" time="0.001" classname="data.hrm.employee.Level_19_Fake_Data" />
+                <testcase name="Employee_04_Contact_Details" time="3.684" classname="data.hrm.employee.Level_19_Fake_Data" />
+                <testcase name="Employee_01_Add_New_Employee" time="13.031" classname="data.hrm.employee.Level_19_Fake_Data" />
+                <testcase name="Employee_06_Assigned_Dependents" time="0.001" classname="data.hrm.employee.Level_19_Fake_Data" />
+                <testcase name="Employee_02_Upload_Avatar" time="5.888" classname="data.hrm.employee.Level_19_Fake_Data" />
+                <testcase name="Employee_03_Personal_Details" time="4.563" classname="data.hrm.employee.Level_19_Fake_Data" />
+                <testcase name="Employee_07_Assigned_Dependents" time="0.001" classname="data.hrm.employee.Level_19_Fake_Data" />
+      
+</testsuite>

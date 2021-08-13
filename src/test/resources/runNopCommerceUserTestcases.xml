@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Nop Commerce" parallel="tests" thread-count = "3">
+	<parameter name="url" value="https://demo.nopcommerce.com/" />
+	
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name ="commons.MethodListener" />
+		<listener class-name ="reportConfig.ExtentTestListener" />
+		<listener class-name ="reportConfig.ReportNGListener" />
+	</listeners>
+	<test name="Run on FIREFOX">
+	<parameter name="browser" value="FIREFOX" />
+		<classes>
+			<class
+				name="com.nopcommerce.login.Level_15_Register_Login_Pattern_Object" />
+		</classes>
+	</test>
+
+</suite> 

@@ -1,0 +1,16 @@
+{
+	"firstname": "hanh",
+	"lastname": "le",
+	"fullname": "hanh le",
+	"username": "khanhduong123",
+	"password": "khanhduong123123",
+	
+	"ContactDetail": {
+		"editfirstname": "le",
+		"editlastname": "hanh"
+		}
+
+
+
+
+}
