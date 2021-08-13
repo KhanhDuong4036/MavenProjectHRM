@@ -1,9 +1,9 @@
 package data.hrm.employee;
 
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
+//import io.qameta.allure.Description;
+//import io.qameta.allure.Epic;
+//import io.qameta.allure.Feature;
+//import io.qameta.allure.Story;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -19,8 +19,8 @@ import pageObjects.hrm.LoginPO;
 import pageObjects.hrm.PageGenerator;
 import pageObjects.hrm.MyInfoPO;
 
-@Epic("Web")
-@Feature("Admin")
+//@Epic("Web")
+//@Feature("Admin")
 public class Level_19_Fake_Data extends BaseTest {
 	String adminUserName, adminPassword, empFirstName, empLastName, empUserName, empPassword, employeeID, statusValue, empFullName;
 	String avatarFilePath = GlobalConstants.UPLOAD_FOLDER_PATH + "Avatar.png";
@@ -69,7 +69,6 @@ public class Level_19_Fake_Data extends BaseTest {
 		
 	}
 
-	@Description("Login to system")
 	@Test
 	public void Employee_01_Add_New_Employee() {
 

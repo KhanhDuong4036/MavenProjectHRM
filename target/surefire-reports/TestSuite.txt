@@ -1,30 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 54.184 s <<< FAILURE! - in TestSuite
-Employee_01_Add_New_Employee(data.hrm.employee.Level_19_Fake_Data)  Time elapsed: 40.563 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='mainMenu']//a[string()='PIM'] (tried for 30 second(s) with 500 milliseconds interval)
-	at data.hrm.employee.Level_19_Fake_Data.Employee_01_Add_New_Employee(Level_19_Fake_Data.java:77)
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 78.022 s <<< FAILURE! - in TestSuite
+Employee_01_Add_New_Employee(data.hrm.employee.Level_19_Fake_Data)  Time elapsed: 24.249 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='firstNam'] (tried for 5 second(s) with 500 milliseconds interval)
+	at data.hrm.employee.Level_19_Fake_Data.Employee_01_Add_New_Employee(Level_19_Fake_Data.java:84)
 Caused by: org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@id='mainMenu']//a[string()='PIM']
+Unable to locate element: //input[@id='firstNam']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-RCI0U7A', ip: '192.168.1.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8696, moz:profile: C:\Users\This PC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6efb58f8-7cdd-41cd-88b7-2083847833c3
-*** Element info: {Using=xpath, value=//div[@id='mainMenu']//a[string()='PIM']}
-	at data.hrm.employee.Level_19_Fake_Data.Employee_01_Add_New_Employee(Level_19_Fake_Data.java:77)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8128, moz:profile: C:\Users\This PC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
+*** Element info: {Using=xpath, value=//input[@id='firstNam']}
+	at data.hrm.employee.Level_19_Fake_Data.Employee_01_Add_New_Employee(Level_19_Fake_Data.java:84)
 
-Employee_02_Upload_Avatar(data.hrm.employee.Level_19_Fake_Data)  Time elapsed: 0.005 s  <<< FAILURE!
-java.lang.NullPointerException
-	at data.hrm.employee.Level_19_Fake_Data.Employee_02_Upload_Avatar(Level_19_Fake_Data.java:137)
+Employee_02_Upload_Avatar(data.hrm.employee.Level_19_Fake_Data)  Time elapsed: 42.503 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='mainMenu']//a[string()='My Info'] (tried for 30 second(s) with 500 milliseconds interval)
+	at data.hrm.employee.Level_19_Fake_Data.Employee_02_Upload_Avatar(Level_19_Fake_Data.java:140)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@id='mainMenu']//a[string()='My Info']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RCI0U7A', ip: '192.168.1.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8128, moz:profile: C:\Users\This PC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
+*** Element info: {Using=xpath, value=//div[@id='mainMenu']//a[string()='My Info']}
+	at data.hrm.employee.Level_19_Fake_Data.Employee_02_Upload_Avatar(Level_19_Fake_Data.java:140)
 
-Employee_03_Personal_Details(data.hrm.employee.Level_19_Fake_Data)  Time elapsed: 0.004 s  <<< FAILURE!
+Employee_03_Personal_Details(data.hrm.employee.Level_19_Fake_Data)  Time elapsed: 0.002 s  <<< FAILURE!
 java.lang.NullPointerException
-	at data.hrm.employee.Level_19_Fake_Data.Employee_03_Personal_Details(Level_19_Fake_Data.java:165)
+	at data.hrm.employee.Level_19_Fake_Data.Employee_03_Personal_Details(Level_19_Fake_Data.java:164)
 
-Employee_04_Contact_Details(data.hrm.employee.Level_19_Fake_Data)  Time elapsed: 0.005 s  <<< FAILURE!
+Employee_04_Contact_Details(data.hrm.employee.Level_19_Fake_Data)  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.NullPointerException
-	at data.hrm.employee.Level_19_Fake_Data.Employee_04_Contact_Details(Level_19_Fake_Data.java:241)
+	at data.hrm.employee.Level_19_Fake_Data.Employee_04_Contact_Details(Level_19_Fake_Data.java:240)
 

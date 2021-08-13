@@ -1,1 +1,6 @@
 /allure-json/
+/target/
+/test-output/
+/.settings/
+/monitorLogs/
+/.idea/

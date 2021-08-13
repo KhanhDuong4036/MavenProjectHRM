@@ -47,7 +47,6 @@ pageUIs\bankGuru\LoginPageUI.class
 pageUIs\hrm\MyInfoPageUI.class
 pageObjects\user\nopCommerce\PageGeneratorManager.class
 pageUIs\admin\nopCommerce\DashboardPageUI.class
-reportConfig\AllureTestListener.class
 Utilities\DataHelper.class
 pageObjects\user\nopCommerce\HomePageObject.class
 pageUIs\bankGuru\RegisterPageUI.class
