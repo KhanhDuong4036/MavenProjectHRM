@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+import commons.GlobalConstants;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.NoSuchSessionException;
 import org.openqa.selenium.OutputType;
@@ -19,7 +20,7 @@ import org.testng.Reporter;
 import commons.BaseTest;
 
 public class ReportNGListener implements ITestListener{
-	String projectLocation = System.getProperty("user.dir") + "/screenshotReportNG/";
+	String projectLocation = GlobalConstants.PROJECT_PATH + "/screenshotReportNG/";
 
 	@Override
 	public void onFinish(ITestContext arg0) {

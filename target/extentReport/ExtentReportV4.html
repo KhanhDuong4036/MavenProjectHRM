@@ -35,8 +35,7 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
-			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1)" view='testrunner-logs-view'><i class='material-icons'>note</i></a></li>
 		</ul>
 		<!-- report name -->
@@ -46,7 +45,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Aug 13, 2021 04:05:26 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Aug 15, 2021 06:08:46 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -62,7 +61,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -105,10 +103,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>8</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>12</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>4</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -126,343 +124,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
-					<div class='test-heading'>
-						<span class='test-name'>Employee_02_Upload_Avatar</span>
-						<span class='test-time'>Aug 13, 2021 04:04:43 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:04:43 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 43s+137ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
-				<td class='step-details'>
-						<textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='mainMenu']//a[string()='My Info'] (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at commons.BasePage.waitForElementClickable(BasePage.java:531)
-	at commons.BasePage.openMenuPage(BasePage.java:639)
-	at data.hrm.employee.Level_19_Fake_Data.Employee_02_Upload_Avatar(Level_19_Fake_Data.java:140)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='mainMenu']//a[string()='My Info']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RCI0U7A', ip: '192.168.1.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8128, moz:profile: C:\Users\This PC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
-*** Element info: {Using=xpath, value=//div[@id='mainMenu']//a[string()='My Info']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 32 more
-</textarea>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
-					<div class='test-heading'>
-						<span class='test-name'>Employee_01_Add_New_Employee</span>
-						<span class='test-time'>Aug 13, 2021 04:04:19 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:04:19 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 7s+389ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
-				<td class='step-details'>
-						<textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='firstNam'] (tried for 5 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at commons.BasePage.waitForElementVisible(BasePage.java:508)
-	at commons.BasePage.enterToTextboxByID(BasePage.java:678)
-	at data.hrm.employee.Level_19_Fake_Data.Employee_01_Add_New_Employee(Level_19_Fake_Data.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='firstNam']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RCI0U7A', ip: '192.168.1.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8128, moz:profile: C:\Users\This PC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
-*** Element info: {Using=xpath, value=//input[@id='firstNam']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 32 more
-</textarea>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
-					<div class='test-heading'>
-						<span class='test-name'>Employee_03_Personal_Details</span>
-						<span class='test-time'>Aug 13, 2021 04:05:26 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+637ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
-				<td class='step-details'>
-						<textarea disabled class="code-block">java.lang.NullPointerException
-	at data.hrm.employee.Level_19_Fake_Data.Employee_03_Personal_Details(Level_19_Fake_Data.java:164)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</textarea>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
-					<div class='test-heading'>
-						<span class='test-name'>Employee_04_Contact_Details</span>
-						<span class='test-time'>Aug 13, 2021 04:05:26 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+636ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
-				<td class='step-details'>
-						<textarea disabled class="code-block">java.lang.NullPointerException
-	at data.hrm.employee.Level_19_Fake_Data.Employee_04_Contact_Details(Level_19_Fake_Data.java:240)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</textarea>
-					
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Employee_06_Assigned_Dependents</span>
-						<span class='test-time'>Aug 13, 2021 04:05:26 PM</span>
+						<span class='test-time'>Aug 15, 2021 06:08:45 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+635ms</span>
+	<span class='label start-time'>Aug 15, 2021 06:08:45 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+628ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -476,7 +148,147 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
+				<td class='timestamp'>6:08:46 PM</td>
+				<td class='step-details'>
+						Test passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>Employee_10_Qualifications</span>
+						<span class='test-time'>Aug 15, 2021 06:08:45 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 15, 2021 06:08:45 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+630ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>6:08:46 PM</td>
+				<td class='step-details'>
+						Test passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>Employee_02_Upload_Avatar</span>
+						<span class='test-time'>Aug 15, 2021 06:08:32 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 15, 2021 06:08:32 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 13s+937ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>6:08:46 PM</td>
+				<td class='step-details'>
+						Test passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>Employee_01_Add_New_Employee</span>
+						<span class='test-time'>Aug 15, 2021 06:08:18 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 15, 2021 06:08:18 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 27s+782ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>6:08:46 PM</td>
+				<td class='step-details'>
+						Test passed
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>Employee_08_View_Salary</span>
+						<span class='test-time'>Aug 15, 2021 06:08:45 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Aug 15, 2021 06:08:45 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+631ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>6:08:46 PM</td>
 				<td class='step-details'>
 						Test passed
 					
@@ -489,15 +301,15 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
 					<div class='test-heading'>
-						<span class='test-name'>Employee_10_Qualifications</span>
-						<span class='test-time'>Aug 13, 2021 04:05:26 PM</span>
+						<span class='test-name'>Employee_04_Contact_Details</span>
+						<span class='test-time'>Aug 15, 2021 06:08:42 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+635ms</span>
+	<span class='label start-time'>Aug 15, 2021 06:08:42 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+448ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -511,7 +323,7 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
+				<td class='timestamp'>6:08:46 PM</td>
 				<td class='step-details'>
 						Test passed
 					
@@ -524,15 +336,15 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
 					<div class='test-heading'>
-						<span class='test-name'>Employee_07_Assigned_Dependents</span>
-						<span class='test-time'>Aug 13, 2021 04:05:26 PM</span>
+						<span class='test-name'>Employee_09_Assigned_Dependents</span>
+						<span class='test-time'>Aug 15, 2021 06:08:45 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+636ms</span>
+	<span class='label start-time'>Aug 15, 2021 06:08:45 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+631ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -546,7 +358,7 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
+				<td class='timestamp'>6:08:46 PM</td>
 				<td class='step-details'>
 						Test passed
 					
@@ -559,15 +371,15 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
 					<div class='test-heading'>
-						<span class='test-name'>Employee_11_Search_Employees</span>
-						<span class='test-time'>Aug 13, 2021 04:05:26 PM</span>
+						<span class='test-name'>Employee_07_Assigned_Dependents</span>
+						<span class='test-time'>Aug 15, 2021 06:08:45 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+634ms</span>
+	<span class='label start-time'>Aug 15, 2021 06:08:45 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+632ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -581,7 +393,7 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
+				<td class='timestamp'>6:08:46 PM</td>
 				<td class='step-details'>
 						Test passed
 					
@@ -594,15 +406,15 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
 					<div class='test-heading'>
-						<span class='test-name'>Employee_09_View_Tax</span>
-						<span class='test-time'>Aug 13, 2021 04:05:26 PM</span>
+						<span class='test-name'>Employee_05_Emergency_Contact</span>
+						<span class='test-time'>Aug 15, 2021 06:08:45 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+635ms</span>
+	<span class='label start-time'>Aug 15, 2021 06:08:45 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+632ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -616,7 +428,7 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
+				<td class='timestamp'>6:08:46 PM</td>
 				<td class='step-details'>
 						Test passed
 					
@@ -629,15 +441,15 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
 					<div class='test-heading'>
-						<span class='test-name'>Employee_09_Assigned_Dependents</span>
-						<span class='test-time'>Aug 13, 2021 04:05:26 PM</span>
+						<span class='test-name'>Employee_03_Personal_Details</span>
+						<span class='test-time'>Aug 15, 2021 06:08:38 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+635ms</span>
+	<span class='label start-time'>Aug 15, 2021 06:08:38 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+454ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -651,7 +463,7 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
+				<td class='timestamp'>6:08:46 PM</td>
 				<td class='step-details'>
 						Test passed
 					
@@ -664,15 +476,15 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
 					<div class='test-heading'>
-						<span class='test-name'>Employee_05_Emergency_Contact</span>
-						<span class='test-time'>Aug 13, 2021 04:05:26 PM</span>
+						<span class='test-name'>Employee_11_Search_Employees</span>
+						<span class='test-time'>Aug 15, 2021 06:08:45 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+637ms</span>
+	<span class='label start-time'>Aug 15, 2021 06:08:45 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+632ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -686,7 +498,7 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
+				<td class='timestamp'>6:08:46 PM</td>
 				<td class='step-details'>
 						Test passed
 					
@@ -699,15 +511,15 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 				</li>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
 					<div class='test-heading'>
-						<span class='test-name'>Employee_08_View_Salary</span>
-						<span class='test-time'>Aug 13, 2021 04:05:26 PM</span>
+						<span class='test-name'>Employee_09_View_Tax</span>
+						<span class='test-time'>Aug 15, 2021 06:08:45 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label end-time'>Aug 13, 2021 04:05:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+636ms</span>
+	<span class='label start-time'>Aug 15, 2021 06:08:45 PM</span>
+	<span class='label end-time'>Aug 15, 2021 06:08:46 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+632ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -721,7 +533,7 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>4:05:26 PM</td>
+				<td class='timestamp'>6:08:46 PM</td>
 				<td class='step-details'>
 						Test passed
 					
@@ -752,290 +564,7 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 	</div>
 	<!-- subview right -->
 </div>
-<!-- test view --><!-- category view --><div id='exception-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='exception-collection' class='exception-collection'>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>org.openqa.selenium.TimeoutException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Aug 13, 2021 04:04:43 PM</td>
-										<td class='linked' test-id='1'>Employee_02_Upload_Avatar</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='mainMenu']//a[string()='My Info'] (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at commons.BasePage.waitForElementClickable(BasePage.java:531)
-	at commons.BasePage.openMenuPage(BasePage.java:639)
-	at data.hrm.employee.Level_19_Fake_Data.Employee_02_Upload_Avatar(Level_19_Fake_Data.java:140)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='mainMenu']//a[string()='My Info']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RCI0U7A', ip: '192.168.1.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8128, moz:profile: C:\Users\This PC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
-*** Element info: {Using=xpath, value=//div[@id='mainMenu']//a[string()='My Info']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 32 more
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Aug 13, 2021 04:04:19 PM</td>
-										<td class='linked' test-id='2'>Employee_01_Add_New_Employee</td>
-										<td>
-											<textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='firstNam'] (tried for 5 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at commons.BasePage.waitForElementVisible(BasePage.java:508)
-	at commons.BasePage.enterToTextboxByID(BasePage.java:678)
-	at data.hrm.employee.Level_19_Fake_Data.Employee_01_Add_New_Employee(Level_19_Fake_Data.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='firstNam']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RCI0U7A', ip: '192.168.1.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8128, moz:profile: C:\Users\This PC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
-*** Element info: {Using=xpath, value=//input[@id='firstNam']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 32 more
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.NullPointerException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Aug 13, 2021 04:05:26 PM</td>
-										<td class='linked' test-id='3'>Employee_03_Personal_Details</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at data.hrm.employee.Level_19_Fake_Data.Employee_03_Personal_Details(Level_19_Fake_Data.java:164)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Aug 13, 2021 04:05:26 PM</td>
-										<td class='linked' test-id='4'>Employee_04_Contact_Details</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at data.hrm.employee.Level_19_Fake_Data.Employee_04_Contact_Details(Level_19_Fake_Data.java:240)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='exception-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -1055,19 +584,19 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Aug 13, 2021 04:05:26 PM</div>
+					<div class='panel-lead'>Aug 15, 2021 06:08:46 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Aug 13, 2021 04:05:26 PM</div>
+			 		<div class='panel-lead'>Aug 15, 2021 06:08:46 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 0s+47ms</div>
+					<div class='panel-lead'>0h 0m 0s+44ms</div>
 				</div>
 			</div>
 		</div>
@@ -1079,29 +608,215 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 		<h5>TestRunner Logs</h5>
 		
 		<div class='card-panel'>
-				[INFO ] [2021-08-13 16:04:09,365] ---------- START delete file in folder ----------
+				[INFO ] [2021-08-15 18:08:07,752] ---------- START delete file in folder ----------
 <br><br>
-				[INFO ] [2021-08-13 16:04:09,366] ---------- END delete file in folder ----------
+				[INFO ] [2021-08-15 18:08:07,753] ---------- END delete file in folder ----------
 <br><br>
-				[INFO ] [2021-08-13 16:04:09,373] Pre-Condition - Step 01: Open Browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+				[INFO ] [2021-08-15 18:08:07,760] Pre-Condition - Step 01: Open Browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
 <br><br>
-				[INFO ] [2021-08-13 16:04:16,565] Pre-Condition - Step 02: Login with Admin role
+				[INFO ] [2021-08-15 18:08:15,808] Pre-Condition - Step 02: Login with Admin role
 <br><br>
-				[INFO ] [2021-08-13 16:04:19,408] Add_New_01 - Step 01: Open Employee List page
+				[INFO ] [2021-08-15 18:08:18,720] Add_New_01 - Step 01: Open Employee List page
 <br><br>
-				[INFO ] [2021-08-13 16:04:22,898] Add_New_01 - Step 02: Click 'Add' button
+				[INFO ] [2021-08-15 18:08:21,418] Add_New_01 - Step 02: Click 'Add' button
 <br><br>
-				[INFO ] [2021-08-13 16:04:23,619] Add_New_01 - Step 03: Enter valid information to 'First Name' textbox
+				[INFO ] [2021-08-15 18:08:22,149] Add_New_01 - Step 03: Enter valid information to 'First Name' textbox
 <br><br>
-				[INFO ] [2021-08-13 16:04:43,656] Upload_Avatar_02 - Step 01: Login with Employee Role
+				[INFO ] [2021-08-15 18:08:22,215] Add_New_01 - Step 04: Enter valid information to 'Last Name' textbox
 <br><br>
-				[INFO ] [2021-08-13 16:04:45,642] Upload_Avatar_02 - Step 02: Open Personal Detail Page
+				[INFO ] [2021-08-15 18:08:22,256] Add_New_01 - Step 05: Get value of Employee ID
 <br><br>
-				[INFO ] [2021-08-13 16:05:26,161] Personal_Details_03 - Step 01: Open Personal Detail Page
+				[INFO ] [2021-08-15 18:08:22,282] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
 <br><br>
-				[INFO ] [2021-08-13 16:05:26,162] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
+				[INFO ] [2021-08-15 18:08:22,524] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox
 <br><br>
-				[INFO ] [2021-08-13 16:05:26,165] Post-Condition: Close browser
+				[INFO ] [2021-08-15 18:08:22,563] Add_New_01 - Step 08: Enter valid info to 'Password' textbox
+<br><br>
+				[INFO ] [2021-08-15 18:08:22,606] Add_New_01 - Step 09: Enter valid info to 'Confirm password' textbox
+<br><br>
+				[INFO ] [2021-08-15 18:08:22,643] Add_New_01 - Step 10: Select 'Enabled'value in 'Status' dropdown
+<br><br>
+				[INFO ] [2021-08-15 18:08:22,685] Add_New_01 - Step 11: Click to 'Save' button
+<br><br>
+				[INFO ] [2021-08-15 18:08:25,921] Add_New_01 - Step 12: Open Employee List page
+<br><br>
+				[INFO ] [2021-08-15 18:08:31,457] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox
+<br><br>
+				[INFO ] [2021-08-15 18:08:31,462]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:31,506]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:31,507] Add_New_01 - Step 14: Click to 'Search' button
+<br><br>
+				[INFO ] [2021-08-15 18:08:32,471]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:32,471] Add_New_01 - Step 15: Verify Employee Information displayed at 'Result Table'
+<br><br>
+				[INFO ] [2021-08-15 18:08:32,505]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:32,531]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:32,561]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:32,564] Upload_Avatar_02 - Step 01: Login with Employee Role
+<br><br>
+				[INFO ] [2021-08-15 18:08:34,810] Upload_Avatar_02 - Step 02: Open Personal Detail Page
+<br><br>
+				[INFO ] [2021-08-15 18:08:35,925] Upload_Avatar_02 - Step 03: Click to Change Photo Image
+<br><br>
+				[INFO ] [2021-08-15 18:08:36,675] Upload_Avatar_02 - Step 04: Upload new Avatar Image
+<br><br>
+				[INFO ] [2021-08-15 18:08:36,689] Upload_Avatar_02 - Step 05: Click to Upload button
+<br><br>
+				[INFO ] [2021-08-15 18:08:37,985] Upload_Avatar_02 - Step 06: Verify success message is displayed
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,015]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,015] Upload_Avatar_02 - Step 07: Verify new Avatar image is displayed
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,047]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,048] Personal_Details_03 - Step 01: Open Personal Detail Page
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,815] Personal_Details_03 - Step 02: Veiry all fields at 'Personal Detail' are disabled
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,841]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,870]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,893]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,916]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,939]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,960]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:38,982]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,004]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,025]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,047]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,069]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,069] Personal_Details_03 - Step 03: Click to Edit button at 'Personal Detai' form
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,306] Personal_Details_03 - Step 04: Verify 'Employee Id' textbox are disabled
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,326]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,326] Personal_Details_03 - Step 05: Verify 'Driver's License Number' textbox are disabled
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,347]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,347] Personal_Details_03 - Step 06: Verify 'SSN Number' textbox are disabled
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,369]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,369] Personal_Details_03 - Step 07: Verify 'SIN Number' textbox are disabled
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,390]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,390] Personal_Details_03 - Step 08: Verify 'Date of Birth' textbox are disabled
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,415]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,415] Personal_Details_03 - Step 09: Enter new 'First Name'
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,456] Personal_Details_03 - Step 10: Enter new 'Last Name'
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,494] Personal_Details_03 - Step 11: Select new 'Gender'
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,735] Personal_Details_03 - Step 12: Select new 'Marital Status'
+<br><br>
+				[INFO ] [2021-08-15 18:08:39,975] Personal_Details_03 - Step 13: Select new 'Nationality'
+<br><br>
+				[INFO ] [2021-08-15 18:08:40,221] Personal_Details_03 - Step 14: Click to 'Save' button at 'Personal Detail' form
+<br><br>
+				[INFO ] [2021-08-15 18:08:41,528] Personal_Details_03 - Step 15: Verify Success Message is displayed
+<br><br>
+				[INFO ] [2021-08-15 18:08:41,565]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:41,565] Personal_Details_03 - Step 16: Verify 'First Name' is updated
+<br><br>
+				[INFO ] [2021-08-15 18:08:41,590]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:41,590] Personal_Details_03 - Step 17: Verify 'Last Name' is updated
+<br><br>
+				[INFO ] [2021-08-15 18:08:41,614]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:41,614] Personal_Details_03 - Step 18: Verify 'Gender' is updated
+<br><br>
+				[INFO ] [2021-08-15 18:08:41,635]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:41,635] Personal_Details_03 - Step 19: Verify 'Marital Status' is updated
+<br><br>
+				[INFO ] [2021-08-15 18:08:41,677]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:41,677] Personal_Details_03 - Step 20: Verify 'Nationality' is updated
+<br><br>
+				[INFO ] [2021-08-15 18:08:42,029]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:42,029] Personal_Details_03 - Step 21: Verify 'Employee Id' is correct
+<br><br>
+				[INFO ] [2021-08-15 18:08:42,053]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:42,053] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
+<br><br>
+				[INFO ] [2021-08-15 18:08:43,285] Contact_Detaisl_04 - Step 02: Verify all fields at 'Contact Details' are disabled
+<br><br>
+				[INFO ] [2021-08-15 18:08:43,306]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:43,332]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:43,353]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:43,374]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:43,396]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:43,396] Contact_Detaisl_04 - Step 03: Click to 'Edit' button
+<br><br>
+				[INFO ] [2021-08-15 18:08:43,635] Contact_Detaisl_04 - Step 04: Enter 'Address Street 1' textbox
+<br><br>
+				[INFO ] [2021-08-15 18:08:43,669] Contact_Detaisl_04 - Step 05: Enter 'Address Street 2' textbox
+<br><br>
+				[INFO ] [2021-08-15 18:08:43,703] Contact_Detaisl_04 - Step 06: Enter 'City' textbox
+<br><br>
+				[INFO ] [2021-08-15 18:08:43,745] Contact_Detaisl_04 - Step 07: Select 'Country' in dropdown
+<br><br>
+				[INFO ] [2021-08-15 18:08:44,003] Contact_Detaisl_04 - Step 08: Enter 'Phone' textbox
+<br><br>
+				[INFO ] [2021-08-15 18:08:44,042] Contact_Detaisl_04 - Step 09: Click 'Save' button
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,316] Contact_Detaisl_04 - Step 09: Verify 'Success Message' is displayed
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,347]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,347] Contact_Detaisl_04 - Step 10: Verify 'Address Street 1' is updated
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,372]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,372] Contact_Detaisl_04 - Step 11: Verify 'Address Street 2' is updated
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,396]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,396] Contact_Detaisl_04 - Step 12: Verify 'City' is updated
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,421]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,421] Contact_Detaisl_04 - Step 13: Verify 'Country' is updated
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,844]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,844] Contact_Detaisl_04 - Step 14: Verify 'Phone' is updated
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,869]  -------------------------- PASSED -------------------------- 
+<br><br>
+				[INFO ] [2021-08-15 18:08:45,871] Post-Condition: Close browser
 <br><br>
 		</div>
 	</div>
@@ -1111,13 +826,13 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 		<script>
 			var statusGroup = {
                 parentCount: 12,
-				passParent: 8,
-				failParent: 4,
+				passParent: 12,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 4,
+				exceptionsParent: 0,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -1142,7 +857,7 @@ Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
 		</script>
 		<script>
 			var timeline = {
-			        "Employee_02_Upload_Avatar":43.137,"Employee_01_Add_New_Employee":67.389,"Employee_03_Personal_Details":0.637,"Employee_04_Contact_Details":0.636,"Employee_06_Assigned_Dependents":0.635,"Employee_10_Qualifications":0.635,"Employee_07_Assigned_Dependents":0.636,"Employee_11_Search_Employees":0.634,"Employee_09_View_Tax":0.635,"Employee_09_Assigned_Dependents":0.635,"Employee_05_Emergency_Contact":0.637,"Employee_08_View_Salary":0.636
+			        "Employee_06_Assigned_Dependents":0.628,"Employee_10_Qualifications":0.63,"Employee_02_Upload_Avatar":13.937,"Employee_01_Add_New_Employee":27.782,"Employee_08_View_Salary":0.631,"Employee_04_Contact_Details":4.448,"Employee_09_Assigned_Dependents":0.631,"Employee_07_Assigned_Dependents":0.632,"Employee_05_Emergency_Contact":0.632,"Employee_03_Personal_Details":8.454,"Employee_11_Search_Employees":0.632,"Employee_09_View_Tax":0.632
 			};
 		</script>
 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>

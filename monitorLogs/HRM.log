@@ -279,3 +279,423 @@
 [INFO ] [2021-08-13 16:05:26,161] Personal_Details_03 - Step 01: Open Personal Detail Page
 [INFO ] [2021-08-13 16:05:26,162] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
 [INFO ] [2021-08-13 16:05:26,165] Post-Condition: Close browser
+[INFO ] [2021-08-14 18:58:28,653] ---------- START delete file in folder ----------
+[INFO ] [2021-08-14 18:58:28,662] ---------- END delete file in folder ----------
+[INFO ] [2021-08-14 18:58:28,662] Pre-Condition - Step 01: Open Browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-08-14 18:58:37,564] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-08-14 18:58:40,430] Add_New_01 - Step 01: Open Employee List page
+[INFO ] [2021-08-14 18:58:43,311] Add_New_01 - Step 02: Click 'Add' button
+[INFO ] [2021-08-14 18:58:44,063] Add_New_01 - Step 03: Enter valid information to 'First Name' textbox
+[INFO ] [2021-08-14 18:58:44,121] Add_New_01 - Step 04: Enter valid information to 'Last Name' textbox
+[INFO ] [2021-08-14 18:58:44,160] Add_New_01 - Step 05: Get value of Employee ID
+[INFO ] [2021-08-14 18:58:44,186] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2021-08-14 18:58:44,429] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox
+[INFO ] [2021-08-14 18:58:44,464] Add_New_01 - Step 08: Enter valid info to 'Password' textbox
+[INFO ] [2021-08-14 18:58:44,512] Add_New_01 - Step 09: Enter valid info to 'Confirm password' textbox
+[INFO ] [2021-08-14 18:58:44,553] Add_New_01 - Step 10: Select 'Enabled'value in 'Status' dropdown
+[INFO ] [2021-08-14 18:58:44,594] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2021-08-14 18:58:47,832] Add_New_01 - Step 12: Open Employee List page
+[INFO ] [2021-08-14 18:58:53,308] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox
+[INFO ] [2021-08-14 18:58:53,312]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:58:53,353]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:58:53,353] Add_New_01 - Step 14: Click to 'Search' button
+[INFO ] [2021-08-14 18:58:54,394]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:58:54,394] Add_New_01 - Step 15: Verify Employee Information displayed at 'Result Table'
+[INFO ] [2021-08-14 18:58:54,429]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:58:54,453]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:58:54,483]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:58:54,484] Upload_Avatar_02 - Step 01: Login with Employee Role
+[INFO ] [2021-08-14 18:58:56,999] Upload_Avatar_02 - Step 02: Open Personal Detail Page
+[INFO ] [2021-08-14 18:58:58,580] Upload_Avatar_02 - Step 03: Click to Change Photo Image
+[INFO ] [2021-08-14 18:58:59,392] Upload_Avatar_02 - Step 04: Upload new Avatar Image
+[INFO ] [2021-08-14 18:58:59,405] Upload_Avatar_02 - Step 05: Click to Upload button
+[INFO ] [2021-08-14 18:59:01,063] Upload_Avatar_02 - Step 06: Verify success message is displayed
+[INFO ] [2021-08-14 18:59:01,132]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:01,132] Upload_Avatar_02 - Step 07: Verify new Avatar image is displayed
+[INFO ] [2021-08-14 18:59:01,226]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:01,226] Personal_Details_03 - Step 01: Open Personal Detail Page
+[INFO ] [2021-08-14 18:59:02,037] Personal_Details_03 - Step 02: Veiry all fields at 'Personal Detail' are disabled
+[INFO ] [2021-08-14 18:59:02,084]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,131]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,184]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,260]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,297]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,317]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,336]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,358]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,379]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,399]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,419]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,419] Personal_Details_03 - Step 03: Click to Edit button at 'Personal Detai' form
+[INFO ] [2021-08-14 18:59:02,670] Personal_Details_03 - Step 04: Verify 'Employee Id' textbox are disabled
+[INFO ] [2021-08-14 18:59:02,717]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,717] Personal_Details_03 - Step 05: Verify 'Driver's License Number' textbox are disabled
+[INFO ] [2021-08-14 18:59:02,770]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,770] Personal_Details_03 - Step 06: Verify 'SSN Number' textbox are disabled
+[INFO ] [2021-08-14 18:59:02,817]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,817] Personal_Details_03 - Step 07: Verify 'SIN Number' textbox are disabled
+[INFO ] [2021-08-14 18:59:02,870]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,870] Personal_Details_03 - Step 08: Verify 'Date of Birth' textbox are disabled
+[INFO ] [2021-08-14 18:59:02,917]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:02,917] Personal_Details_03 - Step 09: Enter new 'First Name'
+[INFO ] [2021-08-14 18:59:03,017] Personal_Details_03 - Step 10: Enter new 'Last Name'
+[INFO ] [2021-08-14 18:59:03,118] Personal_Details_03 - Step 11: Select new 'Gender'
+[INFO ] [2021-08-14 18:59:03,420] Personal_Details_03 - Step 12: Select new 'Marital Status'
+[INFO ] [2021-08-14 18:59:03,736] Personal_Details_03 - Step 13: Select new 'Nationality'
+[INFO ] [2021-08-14 18:59:04,059] Personal_Details_03 - Step 14: Click to 'Save' button at 'Personal Detail' form
+[INFO ] [2021-08-14 18:59:05,531] Personal_Details_03 - Step 15: Verify Success Message is displayed
+[INFO ] [2021-08-14 18:59:05,600]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:05,600] Personal_Details_03 - Step 16: Verify 'First Name' is updated
+[INFO ] [2021-08-14 18:59:05,669]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:05,669] Personal_Details_03 - Step 17: Verify 'Last Name' is updated
+[INFO ] [2021-08-14 18:59:05,731]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:05,731] Personal_Details_03 - Step 18: Verify 'Gender' is updated
+[INFO ] [2021-08-14 18:59:05,785]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:05,785] Personal_Details_03 - Step 19: Verify 'Marital Status' is updated
+[INFO ] [2021-08-14 18:59:05,869]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:05,869] Personal_Details_03 - Step 20: Verify 'Nationality' is updated
+[INFO ] [2021-08-14 18:59:06,258]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:06,258] Personal_Details_03 - Step 21: Verify 'Employee Id' is correct
+[INFO ] [2021-08-14 18:59:06,283]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:06,283] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
+[INFO ] [2021-08-14 18:59:07,608] Contact_Detaisl_04 - Step 02: Verify all fields at 'Contact Details' are disabled
+[INFO ] [2021-08-14 18:59:07,657]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:07,709]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:07,755]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:07,809]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:07,857]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:07,857] Contact_Detaisl_04 - Step 03: Click to 'Edit' button
+[INFO ] [2021-08-14 18:59:08,140] Contact_Detaisl_04 - Step 04: Enter 'Address Street 1' textbox
+[INFO ] [2021-08-14 18:59:08,248] Contact_Detaisl_04 - Step 05: Enter 'Address Street 2' textbox
+[INFO ] [2021-08-14 18:59:08,284] Contact_Detaisl_04 - Step 06: Enter 'City' textbox
+[INFO ] [2021-08-14 18:59:08,318] Contact_Detaisl_04 - Step 07: Select 'Country' in dropdown
+[INFO ] [2021-08-14 18:59:08,579] Contact_Detaisl_04 - Step 08: Enter 'Phone' textbox
+[INFO ] [2021-08-14 18:59:08,679] Contact_Detaisl_04 - Step 09: Click 'Save' button
+[INFO ] [2021-08-14 18:59:10,066] Contact_Detaisl_04 - Step 09: Verify 'Success Message' is displayed
+[INFO ] [2021-08-14 18:59:10,129]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:10,129] Contact_Detaisl_04 - Step 10: Verify 'Address Street 1' is updated
+[INFO ] [2021-08-14 18:59:10,198]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:10,198] Contact_Detaisl_04 - Step 11: Verify 'Address Street 2' is updated
+[INFO ] [2021-08-14 18:59:10,252]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:10,252] Contact_Detaisl_04 - Step 12: Verify 'City' is updated
+[INFO ] [2021-08-14 18:59:10,276]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:10,276] Contact_Detaisl_04 - Step 13: Verify 'Country' is updated
+[INFO ] [2021-08-14 18:59:10,683]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:10,683] Contact_Detaisl_04 - Step 14: Verify 'Phone' is updated
+[INFO ] [2021-08-14 18:59:10,745]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-14 18:59:10,745] Post-Condition: Close browser
+[INFO ] [2021-08-15 17:33:21,777] ---------- START delete file in folder ----------
+[INFO ] [2021-08-15 17:33:21,777] ---------- END delete file in folder ----------
+[INFO ] [2021-08-15 17:33:21,785] Pre-Condition - Step 01: Open Browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-08-15 17:33:30,834] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-08-15 17:33:33,650] Add_New_01 - Step 01: Open Employee List page
+[INFO ] [2021-08-15 17:33:37,035] Add_New_01 - Step 02: Click 'Add' button
+[INFO ] [2021-08-15 17:33:37,753] Add_New_01 - Step 03: Enter valid information to 'First Name' textbox
+[INFO ] [2021-08-15 17:33:37,815] Add_New_01 - Step 04: Enter valid information to 'Last Name' textbox
+[INFO ] [2021-08-15 17:33:37,854] Add_New_01 - Step 05: Get value of Employee ID
+[INFO ] [2021-08-15 17:33:37,886] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2021-08-15 17:33:38,128] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox
+[INFO ] [2021-08-15 17:33:38,162] Add_New_01 - Step 08: Enter valid info to 'Password' textbox
+[INFO ] [2021-08-15 17:33:38,206] Add_New_01 - Step 09: Enter valid info to 'Confirm password' textbox
+[INFO ] [2021-08-15 17:33:38,245] Add_New_01 - Step 10: Select 'Enabled'value in 'Status' dropdown
+[INFO ] [2021-08-15 17:33:38,322] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2021-08-15 17:33:43,351] Add_New_01 - Step 12: Open Employee List page
+[INFO ] [2021-08-15 17:33:48,311] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox
+[INFO ] [2021-08-15 17:33:48,315]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:48,367]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:48,367] Add_New_01 - Step 14: Click to 'Search' button
+[INFO ] [2021-08-15 17:33:48,890]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:48,890] Add_New_01 - Step 15: Verify Employee Information displayed at 'Result Table'
+[INFO ] [2021-08-15 17:33:48,932]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:48,957]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:48,987]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:48,989] Upload_Avatar_02 - Step 01: Login with Employee Role
+[INFO ] [2021-08-15 17:33:51,032] Upload_Avatar_02 - Step 02: Open Personal Detail Page
+[INFO ] [2021-08-15 17:33:52,642] Upload_Avatar_02 - Step 03: Click to Change Photo Image
+[INFO ] [2021-08-15 17:33:53,401] Upload_Avatar_02 - Step 04: Upload new Avatar Image
+[INFO ] [2021-08-15 17:33:53,412] Upload_Avatar_02 - Step 05: Click to Upload button
+[INFO ] [2021-08-15 17:33:54,707] Upload_Avatar_02 - Step 06: Verify success message is displayed
+[INFO ] [2021-08-15 17:33:54,738]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:54,738] Upload_Avatar_02 - Step 07: Verify new Avatar image is displayed
+[INFO ] [2021-08-15 17:33:54,770]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:54,770] Personal_Details_03 - Step 01: Open Personal Detail Page
+[INFO ] [2021-08-15 17:33:55,632] Personal_Details_03 - Step 02: Veiry all fields at 'Personal Detail' are disabled
+[INFO ] [2021-08-15 17:33:55,657]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:55,698]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:55,721]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:55,743]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:55,766]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:55,789]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:55,813]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:55,834]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:55,856]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:55,876]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:55,896]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:55,896] Personal_Details_03 - Step 03: Click to Edit button at 'Personal Detai' form
+[INFO ] [2021-08-15 17:33:56,135] Personal_Details_03 - Step 04: Verify 'Employee Id' textbox are disabled
+[INFO ] [2021-08-15 17:33:56,156]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:56,157] Personal_Details_03 - Step 05: Verify 'Driver's License Number' textbox are disabled
+[INFO ] [2021-08-15 17:33:56,180]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:56,181] Personal_Details_03 - Step 06: Verify 'SSN Number' textbox are disabled
+[INFO ] [2021-08-15 17:33:56,204]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:56,204] Personal_Details_03 - Step 07: Verify 'SIN Number' textbox are disabled
+[INFO ] [2021-08-15 17:33:56,228]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:56,228] Personal_Details_03 - Step 08: Verify 'Date of Birth' textbox are disabled
+[INFO ] [2021-08-15 17:33:56,254]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:56,254] Personal_Details_03 - Step 09: Enter new 'First Name'
+[INFO ] [2021-08-15 17:33:56,302] Personal_Details_03 - Step 10: Enter new 'Last Name'
+[INFO ] [2021-08-15 17:33:56,351] Personal_Details_03 - Step 11: Select new 'Gender'
+[INFO ] [2021-08-15 17:33:56,589] Personal_Details_03 - Step 12: Select new 'Marital Status'
+[INFO ] [2021-08-15 17:33:56,828] Personal_Details_03 - Step 13: Select new 'Nationality'
+[INFO ] [2021-08-15 17:33:57,066] Personal_Details_03 - Step 14: Click to 'Save' button at 'Personal Detail' form
+[INFO ] [2021-08-15 17:33:58,481] Personal_Details_03 - Step 15: Verify Success Message is displayed
+[INFO ] [2021-08-15 17:33:58,517]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:58,517] Personal_Details_03 - Step 16: Verify 'First Name' is updated
+[INFO ] [2021-08-15 17:33:58,543]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:58,543] Personal_Details_03 - Step 17: Verify 'Last Name' is updated
+[INFO ] [2021-08-15 17:33:58,568]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:58,569] Personal_Details_03 - Step 18: Verify 'Gender' is updated
+[INFO ] [2021-08-15 17:33:58,589]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:58,589] Personal_Details_03 - Step 19: Verify 'Marital Status' is updated
+[INFO ] [2021-08-15 17:33:58,625]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:58,625] Personal_Details_03 - Step 20: Verify 'Nationality' is updated
+[INFO ] [2021-08-15 17:33:58,971]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:58,971] Personal_Details_03 - Step 21: Verify 'Employee Id' is correct
+[INFO ] [2021-08-15 17:33:58,996]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:33:58,997] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
+[INFO ] [2021-08-15 17:34:00,178] Contact_Detaisl_04 - Step 02: Verify all fields at 'Contact Details' are disabled
+[INFO ] [2021-08-15 17:34:00,201]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:34:00,244]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:34:00,265]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:34:00,284]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:34:00,305]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:34:00,305] Contact_Detaisl_04 - Step 03: Click to 'Edit' button
+[INFO ] [2021-08-15 17:34:00,541] Contact_Detaisl_04 - Step 04: Enter 'Address Street 1' textbox
+[INFO ] [2021-08-15 17:34:00,577] Contact_Detaisl_04 - Step 05: Enter 'Address Street 2' textbox
+[INFO ] [2021-08-15 17:34:00,610] Contact_Detaisl_04 - Step 06: Enter 'City' textbox
+[INFO ] [2021-08-15 17:34:00,646] Contact_Detaisl_04 - Step 07: Select 'Country' in dropdown
+[INFO ] [2021-08-15 17:34:00,891] Contact_Detaisl_04 - Step 08: Enter 'Phone' textbox
+[INFO ] [2021-08-15 17:34:00,924] Contact_Detaisl_04 - Step 09: Click 'Save' button
+[INFO ] [2021-08-15 17:34:02,204] Contact_Detaisl_04 - Step 09: Verify 'Success Message' is displayed
+[INFO ] [2021-08-15 17:34:02,235]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:34:02,235] Contact_Detaisl_04 - Step 10: Verify 'Address Street 1' is updated
+[INFO ] [2021-08-15 17:34:02,255]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:34:02,256] Contact_Detaisl_04 - Step 11: Verify 'Address Street 2' is updated
+[INFO ] [2021-08-15 17:34:02,278]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:34:02,278] Contact_Detaisl_04 - Step 12: Verify 'City' is updated
+[INFO ] [2021-08-15 17:34:02,302]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:34:02,302] Contact_Detaisl_04 - Step 13: Verify 'Country' is updated
+[INFO ] [2021-08-15 17:34:02,679]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:34:02,679] Contact_Detaisl_04 - Step 14: Verify 'Phone' is updated
+[INFO ] [2021-08-15 17:34:02,705]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 17:34:02,707] Post-Condition: Close browser
+[INFO ] [2021-08-15 18:03:49,869] ---------- START delete file in folder ----------
+[INFO ] [2021-08-15 18:03:49,869] ---------- END delete file in folder ----------
+[INFO ] [2021-08-15 18:03:49,886] Pre-Condition - Step 01: Open Browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-08-15 18:03:58,057] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-08-15 18:04:00,733] Add_New_01 - Step 01: Open Employee List page
+[INFO ] [2021-08-15 18:04:04,016] Add_New_01 - Step 02: Click 'Add' button
+[INFO ] [2021-08-15 18:04:04,708] Add_New_01 - Step 03: Enter valid information to 'First Name' textbox
+[INFO ] [2021-08-15 18:04:04,780] Add_New_01 - Step 04: Enter valid information to 'Last Name' textbox
+[INFO ] [2021-08-15 18:04:04,825] Add_New_01 - Step 05: Get value of Employee ID
+[INFO ] [2021-08-15 18:04:04,850] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2021-08-15 18:04:05,097] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox
+[INFO ] [2021-08-15 18:04:05,131] Add_New_01 - Step 08: Enter valid info to 'Password' textbox
+[INFO ] [2021-08-15 18:04:05,177] Add_New_01 - Step 09: Enter valid info to 'Confirm password' textbox
+[INFO ] [2021-08-15 18:04:05,213] Add_New_01 - Step 10: Select 'Enabled'value in 'Status' dropdown
+[INFO ] [2021-08-15 18:04:05,258] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2021-08-15 18:04:08,498] Add_New_01 - Step 12: Open Employee List page
+[INFO ] [2021-08-15 18:04:13,769] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox
+[INFO ] [2021-08-15 18:04:13,772]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:13,817]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:13,817] Add_New_01 - Step 14: Click to 'Search' button
+[INFO ] [2021-08-15 18:04:14,831]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:14,832] Add_New_01 - Step 15: Verify Employee Information displayed at 'Result Table'
+[INFO ] [2021-08-15 18:04:14,876]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:14,906]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:14,936]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:15,029] Upload_Avatar_02 - Step 01: Login with Employee Role
+[INFO ] [2021-08-15 18:04:17,373] Upload_Avatar_02 - Step 02: Open Personal Detail Page
+[INFO ] [2021-08-15 18:04:18,549] Upload_Avatar_02 - Step 03: Click to Change Photo Image
+[INFO ] [2021-08-15 18:04:19,354] Upload_Avatar_02 - Step 04: Upload new Avatar Image
+[INFO ] [2021-08-15 18:04:19,366] Upload_Avatar_02 - Step 05: Click to Upload button
+[INFO ] [2021-08-15 18:04:21,032] Upload_Avatar_02 - Step 06: Verify success message is displayed
+[INFO ] [2021-08-15 18:04:21,065]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:21,065] Upload_Avatar_02 - Step 07: Verify new Avatar image is displayed
+[INFO ] [2021-08-15 18:04:21,098]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:21,102] Personal_Details_03 - Step 01: Open Personal Detail Page
+[INFO ] [2021-08-15 18:04:22,446] Personal_Details_03 - Step 02: Veiry all fields at 'Personal Detail' are disabled
+[INFO ] [2021-08-15 18:04:22,472]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:22,493]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:22,513]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:22,532]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:22,554]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:22,573]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:22,594]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:22,635]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:22,671]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:22,705]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:22,729]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:22,729] Personal_Details_03 - Step 03: Click to Edit button at 'Personal Detai' form
+[INFO ] [2021-08-15 18:04:22,981] Personal_Details_03 - Step 04: Verify 'Employee Id' textbox are disabled
+[INFO ] [2021-08-15 18:04:23,003]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:23,003] Personal_Details_03 - Step 05: Verify 'Driver's License Number' textbox are disabled
+[INFO ] [2021-08-15 18:04:23,025]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:23,025] Personal_Details_03 - Step 06: Verify 'SSN Number' textbox are disabled
+[INFO ] [2021-08-15 18:04:23,043]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:23,043] Personal_Details_03 - Step 07: Verify 'SIN Number' textbox are disabled
+[INFO ] [2021-08-15 18:04:23,064]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:23,064] Personal_Details_03 - Step 08: Verify 'Date of Birth' textbox are disabled
+[INFO ] [2021-08-15 18:04:23,084]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:23,084] Personal_Details_03 - Step 09: Enter new 'First Name'
+[INFO ] [2021-08-15 18:04:23,124] Personal_Details_03 - Step 10: Enter new 'Last Name'
+[INFO ] [2021-08-15 18:04:23,163] Personal_Details_03 - Step 11: Select new 'Gender'
+[INFO ] [2021-08-15 18:04:23,400] Personal_Details_03 - Step 12: Select new 'Marital Status'
+[INFO ] [2021-08-15 18:04:23,646] Personal_Details_03 - Step 13: Select new 'Nationality'
+[INFO ] [2021-08-15 18:04:23,883] Personal_Details_03 - Step 14: Click to 'Save' button at 'Personal Detail' form
+[INFO ] [2021-08-15 18:04:25,787] Personal_Details_03 - Step 15: Verify Success Message is displayed
+[INFO ] [2021-08-15 18:04:25,820]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:25,820] Personal_Details_03 - Step 16: Verify 'First Name' is updated
+[INFO ] [2021-08-15 18:04:25,844]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:25,844] Personal_Details_03 - Step 17: Verify 'Last Name' is updated
+[INFO ] [2021-08-15 18:04:25,869]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:25,870] Personal_Details_03 - Step 18: Verify 'Gender' is updated
+[INFO ] [2021-08-15 18:04:25,890]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:25,890] Personal_Details_03 - Step 19: Verify 'Marital Status' is updated
+[INFO ] [2021-08-15 18:04:25,930]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:25,930] Personal_Details_03 - Step 20: Verify 'Nationality' is updated
+[INFO ] [2021-08-15 18:04:26,412]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:26,412] Personal_Details_03 - Step 21: Verify 'Employee Id' is correct
+[INFO ] [2021-08-15 18:04:26,438]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:26,441] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
+[INFO ] [2021-08-15 18:04:27,637] Contact_Detaisl_04 - Step 02: Verify all fields at 'Contact Details' are disabled
+[INFO ] [2021-08-15 18:04:27,660]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:27,680]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:27,698]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:27,718]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:27,740]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:27,740] Contact_Detaisl_04 - Step 03: Click to 'Edit' button
+[INFO ] [2021-08-15 18:04:27,975] Contact_Detaisl_04 - Step 04: Enter 'Address Street 1' textbox
+[INFO ] [2021-08-15 18:04:28,008] Contact_Detaisl_04 - Step 05: Enter 'Address Street 2' textbox
+[INFO ] [2021-08-15 18:04:28,041] Contact_Detaisl_04 - Step 06: Enter 'City' textbox
+[INFO ] [2021-08-15 18:04:28,072] Contact_Detaisl_04 - Step 07: Select 'Country' in dropdown
+[INFO ] [2021-08-15 18:04:28,316] Contact_Detaisl_04 - Step 08: Enter 'Phone' textbox
+[INFO ] [2021-08-15 18:04:28,353] Contact_Detaisl_04 - Step 09: Click 'Save' button
+[INFO ] [2021-08-15 18:04:29,721] Contact_Detaisl_04 - Step 09: Verify 'Success Message' is displayed
+[INFO ] [2021-08-15 18:04:29,754]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:29,754] Contact_Detaisl_04 - Step 10: Verify 'Address Street 1' is updated
+[INFO ] [2021-08-15 18:04:29,776]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:29,776] Contact_Detaisl_04 - Step 11: Verify 'Address Street 2' is updated
+[INFO ] [2021-08-15 18:04:29,801]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:29,801] Contact_Detaisl_04 - Step 12: Verify 'City' is updated
+[INFO ] [2021-08-15 18:04:29,829]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:29,829] Contact_Detaisl_04 - Step 13: Verify 'Country' is updated
+[INFO ] [2021-08-15 18:04:30,223]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:30,224] Contact_Detaisl_04 - Step 14: Verify 'Phone' is updated
+[INFO ] [2021-08-15 18:04:30,247]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:04:30,267] Post-Condition: Close browser
+[INFO ] [2021-08-15 18:08:07,752] ---------- START delete file in folder ----------
+[INFO ] [2021-08-15 18:08:07,753] ---------- END delete file in folder ----------
+[INFO ] [2021-08-15 18:08:07,760] Pre-Condition - Step 01: Open Browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+[INFO ] [2021-08-15 18:08:15,808] Pre-Condition - Step 02: Login with Admin role
+[INFO ] [2021-08-15 18:08:18,720] Add_New_01 - Step 01: Open Employee List page
+[INFO ] [2021-08-15 18:08:21,418] Add_New_01 - Step 02: Click 'Add' button
+[INFO ] [2021-08-15 18:08:22,149] Add_New_01 - Step 03: Enter valid information to 'First Name' textbox
+[INFO ] [2021-08-15 18:08:22,215] Add_New_01 - Step 04: Enter valid information to 'Last Name' textbox
+[INFO ] [2021-08-15 18:08:22,256] Add_New_01 - Step 05: Get value of Employee ID
+[INFO ] [2021-08-15 18:08:22,282] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+[INFO ] [2021-08-15 18:08:22,524] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox
+[INFO ] [2021-08-15 18:08:22,563] Add_New_01 - Step 08: Enter valid info to 'Password' textbox
+[INFO ] [2021-08-15 18:08:22,606] Add_New_01 - Step 09: Enter valid info to 'Confirm password' textbox
+[INFO ] [2021-08-15 18:08:22,643] Add_New_01 - Step 10: Select 'Enabled'value in 'Status' dropdown
+[INFO ] [2021-08-15 18:08:22,685] Add_New_01 - Step 11: Click to 'Save' button
+[INFO ] [2021-08-15 18:08:25,921] Add_New_01 - Step 12: Open Employee List page
+[INFO ] [2021-08-15 18:08:31,457] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox
+[INFO ] [2021-08-15 18:08:31,462]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:31,506]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:31,507] Add_New_01 - Step 14: Click to 'Search' button
+[INFO ] [2021-08-15 18:08:32,471]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:32,471] Add_New_01 - Step 15: Verify Employee Information displayed at 'Result Table'
+[INFO ] [2021-08-15 18:08:32,505]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:32,531]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:32,561]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:32,564] Upload_Avatar_02 - Step 01: Login with Employee Role
+[INFO ] [2021-08-15 18:08:34,810] Upload_Avatar_02 - Step 02: Open Personal Detail Page
+[INFO ] [2021-08-15 18:08:35,925] Upload_Avatar_02 - Step 03: Click to Change Photo Image
+[INFO ] [2021-08-15 18:08:36,675] Upload_Avatar_02 - Step 04: Upload new Avatar Image
+[INFO ] [2021-08-15 18:08:36,689] Upload_Avatar_02 - Step 05: Click to Upload button
+[INFO ] [2021-08-15 18:08:37,985] Upload_Avatar_02 - Step 06: Verify success message is displayed
+[INFO ] [2021-08-15 18:08:38,015]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:38,015] Upload_Avatar_02 - Step 07: Verify new Avatar image is displayed
+[INFO ] [2021-08-15 18:08:38,047]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:38,048] Personal_Details_03 - Step 01: Open Personal Detail Page
+[INFO ] [2021-08-15 18:08:38,815] Personal_Details_03 - Step 02: Veiry all fields at 'Personal Detail' are disabled
+[INFO ] [2021-08-15 18:08:38,841]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:38,870]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:38,893]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:38,916]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:38,939]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:38,960]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:38,982]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:39,004]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:39,025]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:39,047]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:39,069]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:39,069] Personal_Details_03 - Step 03: Click to Edit button at 'Personal Detai' form
+[INFO ] [2021-08-15 18:08:39,306] Personal_Details_03 - Step 04: Verify 'Employee Id' textbox are disabled
+[INFO ] [2021-08-15 18:08:39,326]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:39,326] Personal_Details_03 - Step 05: Verify 'Driver's License Number' textbox are disabled
+[INFO ] [2021-08-15 18:08:39,347]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:39,347] Personal_Details_03 - Step 06: Verify 'SSN Number' textbox are disabled
+[INFO ] [2021-08-15 18:08:39,369]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:39,369] Personal_Details_03 - Step 07: Verify 'SIN Number' textbox are disabled
+[INFO ] [2021-08-15 18:08:39,390]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:39,390] Personal_Details_03 - Step 08: Verify 'Date of Birth' textbox are disabled
+[INFO ] [2021-08-15 18:08:39,415]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:39,415] Personal_Details_03 - Step 09: Enter new 'First Name'
+[INFO ] [2021-08-15 18:08:39,456] Personal_Details_03 - Step 10: Enter new 'Last Name'
+[INFO ] [2021-08-15 18:08:39,494] Personal_Details_03 - Step 11: Select new 'Gender'
+[INFO ] [2021-08-15 18:08:39,735] Personal_Details_03 - Step 12: Select new 'Marital Status'
+[INFO ] [2021-08-15 18:08:39,975] Personal_Details_03 - Step 13: Select new 'Nationality'
+[INFO ] [2021-08-15 18:08:40,221] Personal_Details_03 - Step 14: Click to 'Save' button at 'Personal Detail' form
+[INFO ] [2021-08-15 18:08:41,528] Personal_Details_03 - Step 15: Verify Success Message is displayed
+[INFO ] [2021-08-15 18:08:41,565]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:41,565] Personal_Details_03 - Step 16: Verify 'First Name' is updated
+[INFO ] [2021-08-15 18:08:41,590]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:41,590] Personal_Details_03 - Step 17: Verify 'Last Name' is updated
+[INFO ] [2021-08-15 18:08:41,614]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:41,614] Personal_Details_03 - Step 18: Verify 'Gender' is updated
+[INFO ] [2021-08-15 18:08:41,635]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:41,635] Personal_Details_03 - Step 19: Verify 'Marital Status' is updated
+[INFO ] [2021-08-15 18:08:41,677]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:41,677] Personal_Details_03 - Step 20: Verify 'Nationality' is updated
+[INFO ] [2021-08-15 18:08:42,029]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:42,029] Personal_Details_03 - Step 21: Verify 'Employee Id' is correct
+[INFO ] [2021-08-15 18:08:42,053]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:42,053] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
+[INFO ] [2021-08-15 18:08:43,285] Contact_Detaisl_04 - Step 02: Verify all fields at 'Contact Details' are disabled
+[INFO ] [2021-08-15 18:08:43,306]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:43,332]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:43,353]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:43,374]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:43,396]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:43,396] Contact_Detaisl_04 - Step 03: Click to 'Edit' button
+[INFO ] [2021-08-15 18:08:43,635] Contact_Detaisl_04 - Step 04: Enter 'Address Street 1' textbox
+[INFO ] [2021-08-15 18:08:43,669] Contact_Detaisl_04 - Step 05: Enter 'Address Street 2' textbox
+[INFO ] [2021-08-15 18:08:43,703] Contact_Detaisl_04 - Step 06: Enter 'City' textbox
+[INFO ] [2021-08-15 18:08:43,745] Contact_Detaisl_04 - Step 07: Select 'Country' in dropdown
+[INFO ] [2021-08-15 18:08:44,003] Contact_Detaisl_04 - Step 08: Enter 'Phone' textbox
+[INFO ] [2021-08-15 18:08:44,042] Contact_Detaisl_04 - Step 09: Click 'Save' button
+[INFO ] [2021-08-15 18:08:45,316] Contact_Detaisl_04 - Step 09: Verify 'Success Message' is displayed
+[INFO ] [2021-08-15 18:08:45,347]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:45,347] Contact_Detaisl_04 - Step 10: Verify 'Address Street 1' is updated
+[INFO ] [2021-08-15 18:08:45,372]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:45,372] Contact_Detaisl_04 - Step 11: Verify 'Address Street 2' is updated
+[INFO ] [2021-08-15 18:08:45,396]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:45,396] Contact_Detaisl_04 - Step 12: Verify 'City' is updated
+[INFO ] [2021-08-15 18:08:45,421]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:45,421] Contact_Detaisl_04 - Step 13: Verify 'Country' is updated
+[INFO ] [2021-08-15 18:08:45,844]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:45,844] Contact_Detaisl_04 - Step 14: Verify 'Phone' is updated
+[INFO ] [2021-08-15 18:08:45,869]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-15 18:08:45,871] Post-Condition: Close browser

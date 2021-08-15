@@ -1,73 +1,445 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="12" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:04:09,365] ---------- START delete file in folder ----------
+      <![CDATA[[INFO ] [2021-08-15 18:08:07,752] ---------- START delete file in folder ----------
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:04:09,366] ---------- END delete file in folder ----------
+      <![CDATA[[INFO ] [2021-08-15 18:08:07,753] ---------- END delete file in folder ----------
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:04:09,373] Pre-Condition - Step 01: Open Browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+      <![CDATA[[INFO ] [2021-08-15 18:08:07,760] Pre-Condition - Step 01: Open Browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:04:16,565] Pre-Condition - Step 02: Login with Admin role
+      <![CDATA[[INFO ] [2021-08-15 18:08:15,808] Pre-Condition - Step 02: Login with Admin role
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:04:19,408] Add_New_01 - Step 01: Open Employee List page
+      <![CDATA[[INFO ] [2021-08-15 18:08:18,720] Add_New_01 - Step 01: Open Employee List page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:04:22,898] Add_New_01 - Step 02: Click 'Add' button
+      <![CDATA[[INFO ] [2021-08-15 18:08:21,418] Add_New_01 - Step 02: Click 'Add' button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:04:23,619] Add_New_01 - Step 03: Enter valid information to 'First Name' textbox
+      <![CDATA[[INFO ] [2021-08-15 18:08:22,149] Add_New_01 - Step 03: Enter valid information to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:04:43,656] Upload_Avatar_02 - Step 01: Login with Employee Role
+      <![CDATA[[INFO ] [2021-08-15 18:08:22,215] Add_New_01 - Step 04: Enter valid information to 'Last Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:04:45,642] Upload_Avatar_02 - Step 02: Open Personal Detail Page
+      <![CDATA[[INFO ] [2021-08-15 18:08:22,256] Add_New_01 - Step 05: Get value of Employee ID
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:05:26,161] Personal_Details_03 - Step 01: Open Personal Detail Page
+      <![CDATA[[INFO ] [2021-08-15 18:08:22,282] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:05:26,162] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
+      <![CDATA[[INFO ] [2021-08-15 18:08:22,524] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-13 16:05:26,165] Post-Condition: Close browser
+      <![CDATA[[INFO ] [2021-08-15 18:08:22,563] Add_New_01 - Step 08: Enter valid info to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:22,606] Add_New_01 - Step 09: Enter valid info to 'Confirm password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:22,643] Add_New_01 - Step 10: Select 'Enabled'value in 'Status' dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:22,685] Add_New_01 - Step 11: Click to 'Save' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:25,921] Add_New_01 - Step 12: Open Employee List page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:31,457] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:31,462]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:31,506]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:31,507] Add_New_01 - Step 14: Click to 'Search' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:32,471]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:32,471] Add_New_01 - Step 15: Verify Employee Information displayed at 'Result Table'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:32,505]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:32,531]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:32,561]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:32,564] Upload_Avatar_02 - Step 01: Login with Employee Role
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:34,810] Upload_Avatar_02 - Step 02: Open Personal Detail Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:35,925] Upload_Avatar_02 - Step 03: Click to Change Photo Image
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:36,675] Upload_Avatar_02 - Step 04: Upload new Avatar Image
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:36,689] Upload_Avatar_02 - Step 05: Click to Upload button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:37,985] Upload_Avatar_02 - Step 06: Verify success message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,015]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,015] Upload_Avatar_02 - Step 07: Verify new Avatar image is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,047]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,048] Personal_Details_03 - Step 01: Open Personal Detail Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,815] Personal_Details_03 - Step 02: Veiry all fields at 'Personal Detail' are disabled
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,841]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,870]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,893]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,916]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,939]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,960]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:38,982]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,004]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,025]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,047]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,069]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,069] Personal_Details_03 - Step 03: Click to Edit button at 'Personal Detai' form
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,306] Personal_Details_03 - Step 04: Verify 'Employee Id' textbox are disabled
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,326]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,326] Personal_Details_03 - Step 05: Verify 'Driver's License Number' textbox are disabled
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,347]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,347] Personal_Details_03 - Step 06: Verify 'SSN Number' textbox are disabled
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,369]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,369] Personal_Details_03 - Step 07: Verify 'SIN Number' textbox are disabled
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,390]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,390] Personal_Details_03 - Step 08: Verify 'Date of Birth' textbox are disabled
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,415]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,415] Personal_Details_03 - Step 09: Enter new 'First Name'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,456] Personal_Details_03 - Step 10: Enter new 'Last Name'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,494] Personal_Details_03 - Step 11: Select new 'Gender'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,735] Personal_Details_03 - Step 12: Select new 'Marital Status'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:39,975] Personal_Details_03 - Step 13: Select new 'Nationality'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:40,221] Personal_Details_03 - Step 14: Click to 'Save' button at 'Personal Detail' form
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:41,528] Personal_Details_03 - Step 15: Verify Success Message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:41,565]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:41,565] Personal_Details_03 - Step 16: Verify 'First Name' is updated
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:41,590]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:41,590] Personal_Details_03 - Step 17: Verify 'Last Name' is updated
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:41,614]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:41,614] Personal_Details_03 - Step 18: Verify 'Gender' is updated
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:41,635]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:41,635] Personal_Details_03 - Step 19: Verify 'Marital Status' is updated
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:41,677]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:41,677] Personal_Details_03 - Step 20: Verify 'Nationality' is updated
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:42,029]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:42,029] Personal_Details_03 - Step 21: Verify 'Employee Id' is correct
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:42,053]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:42,053] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:43,285] Contact_Detaisl_04 - Step 02: Verify all fields at 'Contact Details' are disabled
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:43,306]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:43,332]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:43,353]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:43,374]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:43,396]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:43,396] Contact_Detaisl_04 - Step 03: Click to 'Edit' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:43,635] Contact_Detaisl_04 - Step 04: Enter 'Address Street 1' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:43,669] Contact_Detaisl_04 - Step 05: Enter 'Address Street 2' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:43,703] Contact_Detaisl_04 - Step 06: Enter 'City' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:43,745] Contact_Detaisl_04 - Step 07: Select 'Country' in dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:44,003] Contact_Detaisl_04 - Step 08: Enter 'Phone' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:44,042] Contact_Detaisl_04 - Step 09: Click 'Save' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,316] Contact_Detaisl_04 - Step 09: Verify 'Success Message' is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,347]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,347] Contact_Detaisl_04 - Step 10: Verify 'Address Street 1' is updated
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,372]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,372] Contact_Detaisl_04 - Step 11: Verify 'Address Street 2' is updated
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,396]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,396] Contact_Detaisl_04 - Step 12: Verify 'City' is updated
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,421]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,421] Contact_Detaisl_04 - Step 13: Verify 'Country' is updated
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,844]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,844] Contact_Detaisl_04 - Step 14: Verify 'Phone' is updated
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,869]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-15 18:08:45,871] Post-Condition: Close browser
 <br>]]>
     </line>
   </reporter-output>
-  <suite name="HRM" duration-ms="77349" started-at="2021-08-13T09:04:09Z" finished-at="2021-08-13T09:05:26Z">
+  <suite name="HRM" duration-ms="38690" started-at="2021-08-15T11:08:07Z" finished-at="2021-08-15T11:08:46Z">
     <groups>
     </groups>
-    <test name="Run on FIREFOX" duration-ms="77349" started-at="2021-08-13T09:04:09Z" finished-at="2021-08-13T09:05:26Z">
+    <test name="Run on FIREFOX" duration-ms="38690" started-at="2021-08-15T11:08:07Z" finished-at="2021-08-15T11:08:46Z">
       <class name="data.hrm.employee.Level_19_Fake_Data">
-        <test-method status="PASS" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="deleteAllFilesInReportNGScreenshot" is-config="true" duration-ms="7" started-at="2021-08-13T09:04:09Z" finished-at="2021-08-13T09:04:09Z">
+        <test-method status="PASS" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="deleteAllFilesInReportNGScreenshot" is-config="true" duration-ms="7" started-at="2021-08-15T11:08:07Z" finished-at="2021-08-15T11:08:07Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:04:09,365] ---------- START delete file in folder ----------
+              <![CDATA[[INFO ] [2021-08-15 18:08:07,752] ---------- START delete file in folder ----------
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:04:09,366] ---------- END delete file in folder ----------
+              <![CDATA[[INFO ] [2021-08-15 18:08:07,753] ---------- END delete file in folder ----------
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- deleteAllFilesInReportNGScreenshot -->
-        <test-method status="PASS" signature="beforClass(java.lang.String, java.lang.String)[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="beforClass" is-config="true" duration-ms="10034" started-at="2021-08-13T09:04:09Z" finished-at="2021-08-13T09:04:19Z">
+        <test-method status="PASS" signature="beforClass(java.lang.String, java.lang.String)[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="beforClass" is-config="true" duration-ms="10957" started-at="2021-08-15T11:08:07Z" finished-at="2021-08-15T11:08:18Z">
           <params>
             <param index="0">
               <value>
@@ -82,311 +454,471 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:04:09,373] Pre-Condition - Step 01: Open Browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
+              <![CDATA[[INFO ] [2021-08-15 18:08:07,760] Pre-Condition - Step 01: Open Browser 'firefox' and navigate to 'https://opensource-demo.orangehrmlive.com'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:04:16,565] Pre-Condition - Step 02: Login with Admin role
+              <![CDATA[[INFO ] [2021-08-15 18:08:15,808] Pre-Condition - Step 02: Login with Admin role
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforClass -->
-        <test-method status="FAIL" signature="Employee_01_Add_New_Employee()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_01_Add_New_Employee" duration-ms="24243" started-at="2021-08-13T09:04:19Z" finished-at="2021-08-13T09:04:43Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='firstNam'] (tried for 5 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='firstNam'] (tried for 5 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at commons.BasePage.waitForElementVisible(BasePage.java:508)
-at commons.BasePage.enterToTextboxByID(BasePage.java:678)
-at data.hrm.employee.Level_19_Fake_Data.Employee_01_Add_New_Employee(Level_19_Fake_Data.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='firstNam']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RCI0U7A', ip: '192.168.1.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8128, moz:profile: C:\Users\This PC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
-*** Element info: {Using=xpath, value=//input[@id='firstNam']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Employee_01_Add_New_Employee()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_01_Add_New_Employee" duration-ms="13843" started-at="2021-08-15T11:08:18Z" finished-at="2021-08-15T11:08:32Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:04:19,408] Add_New_01 - Step 01: Open Employee List page
+              <![CDATA[[INFO ] [2021-08-15 18:08:18,720] Add_New_01 - Step 01: Open Employee List page
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:04:22,898] Add_New_01 - Step 02: Click 'Add' button
+              <![CDATA[[INFO ] [2021-08-15 18:08:21,418] Add_New_01 - Step 02: Click 'Add' button
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:04:23,619] Add_New_01 - Step 03: Enter valid information to 'First Name' textbox
+              <![CDATA[[INFO ] [2021-08-15 18:08:22,149] Add_New_01 - Step 03: Enter valid information to 'First Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:22,215] Add_New_01 - Step 04: Enter valid information to 'Last Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:22,256] Add_New_01 - Step 05: Get value of Employee ID
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:22,282] Add_New_01 - Step 06: Click to 'Create Login Details' checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:22,524] Add_New_01 - Step 07: Enter valid info to 'User Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:22,563] Add_New_01 - Step 08: Enter valid info to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:22,606] Add_New_01 - Step 09: Enter valid info to 'Confirm password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:22,643] Add_New_01 - Step 10: Select 'Enabled'value in 'Status' dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:22,685] Add_New_01 - Step 11: Click to 'Save' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:25,921] Add_New_01 - Step 12: Open Employee List page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:31,457] Add_New_01 - Step 13: Enter valid info to 'Employee Name' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:31,462]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:31,506]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:31,507] Add_New_01 - Step 14: Click to 'Search' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:32,471]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:32,471] Add_New_01 - Step 15: Verify Employee Information displayed at 'Result Table'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:32,505]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:32,531]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:32,561]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- Employee_01_Add_New_Employee -->
-        <test-method status="FAIL" signature="Employee_02_Upload_Avatar()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_02_Upload_Avatar" duration-ms="42504" started-at="2021-08-13T09:04:43Z" finished-at="2021-08-13T09:05:26Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='mainMenu']//a[string()='My Info'] (tried for 30 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@id='mainMenu']//a[string()='My Info'] (tried for 30 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at commons.BasePage.waitForElementClickable(BasePage.java:531)
-at commons.BasePage.openMenuPage(BasePage.java:639)
-at data.hrm.employee.Level_19_Fake_Data.Employee_02_Upload_Avatar(Level_19_Fake_Data.java:140)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='mainMenu']//a[string()='My Info']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RCI0U7A', ip: '192.168.1.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 8128, moz:profile: C:\Users\This PC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 544b8467-7261-4911-8f96-5ae01fbee172
-*** Element info: {Using=xpath, value=//div[@id='mainMenu']//a[string()='My Info']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="Employee_02_Upload_Avatar()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_02_Upload_Avatar" duration-ms="5483" started-at="2021-08-15T11:08:32Z" finished-at="2021-08-15T11:08:38Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:04:43,656] Upload_Avatar_02 - Step 01: Login with Employee Role
+              <![CDATA[[INFO ] [2021-08-15 18:08:32,564] Upload_Avatar_02 - Step 01: Login with Employee Role
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:04:45,642] Upload_Avatar_02 - Step 02: Open Personal Detail Page
+              <![CDATA[[INFO ] [2021-08-15 18:08:34,810] Upload_Avatar_02 - Step 02: Open Personal Detail Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:35,925] Upload_Avatar_02 - Step 03: Click to Change Photo Image
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:36,675] Upload_Avatar_02 - Step 04: Upload new Avatar Image
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:36,689] Upload_Avatar_02 - Step 05: Click to Upload button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:37,985] Upload_Avatar_02 - Step 06: Verify success message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,015]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,015] Upload_Avatar_02 - Step 07: Verify new Avatar image is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,047]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- Employee_02_Upload_Avatar -->
-        <test-method status="FAIL" signature="Employee_03_Personal_Details()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_03_Personal_Details" duration-ms="1" started-at="2021-08-13T09:05:26Z" finished-at="2021-08-13T09:05:26Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at data.hrm.employee.Level_19_Fake_Data.Employee_03_Personal_Details(Level_19_Fake_Data.java:164)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="Employee_03_Personal_Details()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_03_Personal_Details" duration-ms="4005" started-at="2021-08-15T11:08:38Z" finished-at="2021-08-15T11:08:42Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:05:26,161] Personal_Details_03 - Step 01: Open Personal Detail Page
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,048] Personal_Details_03 - Step 01: Open Personal Detail Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,815] Personal_Details_03 - Step 02: Veiry all fields at 'Personal Detail' are disabled
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,841]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,870]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,893]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,916]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,939]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,960]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:38,982]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,004]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,025]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,047]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,069]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,069] Personal_Details_03 - Step 03: Click to Edit button at 'Personal Detai' form
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,306] Personal_Details_03 - Step 04: Verify 'Employee Id' textbox are disabled
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,326]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,326] Personal_Details_03 - Step 05: Verify 'Driver's License Number' textbox are disabled
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,347]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,347] Personal_Details_03 - Step 06: Verify 'SSN Number' textbox are disabled
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,369]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,369] Personal_Details_03 - Step 07: Verify 'SIN Number' textbox are disabled
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,390]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,390] Personal_Details_03 - Step 08: Verify 'Date of Birth' textbox are disabled
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,415]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,415] Personal_Details_03 - Step 09: Enter new 'First Name'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,456] Personal_Details_03 - Step 10: Enter new 'Last Name'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,494] Personal_Details_03 - Step 11: Select new 'Gender'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,735] Personal_Details_03 - Step 12: Select new 'Marital Status'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:39,975] Personal_Details_03 - Step 13: Select new 'Nationality'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:40,221] Personal_Details_03 - Step 14: Click to 'Save' button at 'Personal Detail' form
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:41,528] Personal_Details_03 - Step 15: Verify Success Message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:41,565]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:41,565] Personal_Details_03 - Step 16: Verify 'First Name' is updated
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:41,590]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:41,590] Personal_Details_03 - Step 17: Verify 'Last Name' is updated
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:41,614]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:41,614] Personal_Details_03 - Step 18: Verify 'Gender' is updated
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:41,635]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:41,635] Personal_Details_03 - Step 19: Verify 'Marital Status' is updated
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:41,677]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:41,677] Personal_Details_03 - Step 20: Verify 'Nationality' is updated
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:42,029]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:42,029] Personal_Details_03 - Step 21: Verify 'Employee Id' is correct
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:42,053]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- Employee_03_Personal_Details -->
-        <test-method status="FAIL" signature="Employee_04_Contact_Details()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_04_Contact_Details" duration-ms="0" started-at="2021-08-13T09:05:26Z" finished-at="2021-08-13T09:05:26Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at data.hrm.employee.Level_19_Fake_Data.Employee_04_Contact_Details(Level_19_Fake_Data.java:240)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="Employee_04_Contact_Details()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_04_Contact_Details" duration-ms="3816" started-at="2021-08-15T11:08:42Z" finished-at="2021-08-15T11:08:45Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:05:26,162] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
+              <![CDATA[[INFO ] [2021-08-15 18:08:42,053] Contact_Detaisl_04 - Step 01: Open 'Contact Details' tab at Side bar
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:43,285] Contact_Detaisl_04 - Step 02: Verify all fields at 'Contact Details' are disabled
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:43,306]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:43,332]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:43,353]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:43,374]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:43,396]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:43,396] Contact_Detaisl_04 - Step 03: Click to 'Edit' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:43,635] Contact_Detaisl_04 - Step 04: Enter 'Address Street 1' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:43,669] Contact_Detaisl_04 - Step 05: Enter 'Address Street 2' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:43,703] Contact_Detaisl_04 - Step 06: Enter 'City' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:43,745] Contact_Detaisl_04 - Step 07: Select 'Country' in dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:44,003] Contact_Detaisl_04 - Step 08: Enter 'Phone' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:44,042] Contact_Detaisl_04 - Step 09: Click 'Save' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,316] Contact_Detaisl_04 - Step 09: Verify 'Success Message' is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,347]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,347] Contact_Detaisl_04 - Step 10: Verify 'Address Street 1' is updated
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,372]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,372] Contact_Detaisl_04 - Step 11: Verify 'Address Street 2' is updated
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,396]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,396] Contact_Detaisl_04 - Step 12: Verify 'City' is updated
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,421]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,421] Contact_Detaisl_04 - Step 13: Verify 'Country' is updated
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,844]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,844] Contact_Detaisl_04 - Step 14: Verify 'Phone' is updated
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,869]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- Employee_04_Contact_Details -->
-        <test-method status="PASS" signature="Employee_06_Assigned_Dependents()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_06_Assigned_Dependents" duration-ms="0" started-at="2021-08-13T09:05:26Z" finished-at="2021-08-13T09:05:26Z">
+        <test-method status="PASS" signature="Employee_06_Assigned_Dependents()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_06_Assigned_Dependents" duration-ms="0" started-at="2021-08-15T11:08:45Z" finished-at="2021-08-15T11:08:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Employee_06_Assigned_Dependents -->
-        <test-method status="PASS" signature="Employee_05_Emergency_Contact()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_05_Emergency_Contact" duration-ms="0" started-at="2021-08-13T09:05:26Z" finished-at="2021-08-13T09:05:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Employee_05_Emergency_Contact -->
-        <test-method status="PASS" signature="Employee_07_Assigned_Dependents()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_07_Assigned_Dependents" duration-ms="0" started-at="2021-08-13T09:05:26Z" finished-at="2021-08-13T09:05:26Z">
+        <test-method status="PASS" signature="Employee_07_Assigned_Dependents()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_07_Assigned_Dependents" duration-ms="1" started-at="2021-08-15T11:08:45Z" finished-at="2021-08-15T11:08:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Employee_07_Assigned_Dependents -->
-        <test-method status="PASS" signature="Employee_08_View_Salary()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_08_View_Salary" duration-ms="0" started-at="2021-08-13T09:05:26Z" finished-at="2021-08-13T09:05:26Z">
+        <test-method status="PASS" signature="Employee_05_Emergency_Contact()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_05_Emergency_Contact" duration-ms="0" started-at="2021-08-15T11:08:45Z" finished-at="2021-08-15T11:08:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Employee_08_View_Salary -->
-        <test-method status="PASS" signature="Employee_10_Qualifications()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_10_Qualifications" duration-ms="0" started-at="2021-08-13T09:05:26Z" finished-at="2021-08-13T09:05:26Z">
+        </test-method> <!-- Employee_05_Emergency_Contact -->
+        <test-method status="PASS" signature="Employee_10_Qualifications()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_10_Qualifications" duration-ms="0" started-at="2021-08-15T11:08:45Z" finished-at="2021-08-15T11:08:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Employee_10_Qualifications -->
-        <test-method status="PASS" signature="Employee_09_View_Tax()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_09_View_Tax" duration-ms="0" started-at="2021-08-13T09:05:26Z" finished-at="2021-08-13T09:05:26Z">
+        <test-method status="PASS" signature="Employee_08_View_Salary()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_08_View_Salary" duration-ms="0" started-at="2021-08-15T11:08:45Z" finished-at="2021-08-15T11:08:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Employee_09_View_Tax -->
-        <test-method status="PASS" signature="Employee_09_Assigned_Dependents()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_09_Assigned_Dependents" duration-ms="0" started-at="2021-08-13T09:05:26Z" finished-at="2021-08-13T09:05:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Employee_09_Assigned_Dependents -->
-        <test-method status="PASS" signature="Employee_11_Search_Employees()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="Employee_11_Search_Employees" duration-ms="0" started-at="2021-08-13T09:05:26Z" finished-at="2021-08-13T09:05:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Employee_11_Search_Employees -->
-        <test-method status="PASS" signature="cleanBrowser()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@7d0587f1]" name="cleanBrowser" is-config="true" duration-ms="542" started-at="2021-08-13T09:05:26Z" finished-at="2021-08-13T09:05:26Z">
+        </test-method> <!-- Employee_08_View_Salary -->
+        <test-method status="PASS" signature="cleanBrowser()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="cleanBrowser" is-config="true" duration-ms="565" started-at="2021-08-15T11:08:45Z" finished-at="2021-08-15T11:08:46Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-13 16:05:26,165] Post-Condition: Close browser
+              <![CDATA[[INFO ] [2021-08-15 18:08:45,871] Post-Condition: Close browser
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- cleanBrowser -->
+        <test-method status="PASS" signature="Employee_09_Assigned_Dependents()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_09_Assigned_Dependents" duration-ms="0" started-at="2021-08-15T11:08:45Z" finished-at="2021-08-15T11:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Employee_09_Assigned_Dependents -->
+        <test-method status="PASS" signature="Employee_11_Search_Employees()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_11_Search_Employees" duration-ms="0" started-at="2021-08-15T11:08:45Z" finished-at="2021-08-15T11:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Employee_11_Search_Employees -->
+        <test-method status="PASS" signature="Employee_09_View_Tax()[pri:0, instance:data.hrm.employee.Level_19_Fake_Data@5e853265]" name="Employee_09_View_Tax" duration-ms="0" started-at="2021-08-15T11:08:45Z" finished-at="2021-08-15T11:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Employee_09_View_Tax -->
       </class> <!-- data.hrm.employee.Level_19_Fake_Data -->
     </test> <!-- Run on FIREFOX -->
   </suite> <!-- HRM -->

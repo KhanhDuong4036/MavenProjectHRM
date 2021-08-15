@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
+import commons.GlobalConstants;
 import org.testng.IReporter;
 import org.testng.IResultMap;
 import org.testng.ISuite;
@@ -26,7 +27,7 @@ public class ExtentTestListener implements IReporter {
 
 	@Override
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
-		htmlReport = new ExtentHtmlReporter(System.getProperty("user.dir") + "/target/extentReport/ExtentReportV4.html");
+		htmlReport = new ExtentHtmlReporter(GlobalConstants.PROJECT_PATH + "/target/extentReport/ExtentReportV4.html");
 		htmlReport.config().setTheme(Theme.DARK);
 		htmlReport.config().setDocumentTitle("HRM HTML Report");
 		htmlReport.config().setReportName("HRM HTML Report");
